@@ -11,7 +11,7 @@ import Seven from "./Seven"
 function App() {
   return (
     <div classNameName="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="parallax">
       <One />
       <Two />

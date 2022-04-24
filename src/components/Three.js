@@ -6,7 +6,7 @@ function Three() {
     <div className="parallax-layer parallax-layer-base">
       {/* <div className="title">Projects</div> */}
       <div className="project-menu">
-
+        
       </div>
     </div>
   </div>

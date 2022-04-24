@@ -11,8 +11,8 @@ function Two() {
       <span>Fullstack Software Engineer who specializes in React, Ruby, Ruby on Rails, PostgreSQL, HTML, CSS. 
         Coming from an Electrical Engineering background, I am always avid in being hands on and learning new technologies. 
         I chose to abandon the path of tinkering about with hardware to transition to software to fully expand on my creativity that 
-        I couldn't with hardware. Bringing my problem solving background with me, I have shifted my career path to become not just a software 
-        developer/engineer but to become an effective critical thinker simultaneously. Outside of all this, I like to crack jokes, make memes, 
+        I couldn't with hardware. Bringing my problem solving background with me, I have shifted my career path to not just be a software 
+        developer/engineer but to be an effective critical thinker simultaneously. Outside of all this, I like to crack jokes, make memes, 
         and have a good time around people :)
       </span>
       </div>

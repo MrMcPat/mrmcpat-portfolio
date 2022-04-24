@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
         <a>Bio</a>
         <a>Projects</a>
-        <a>Blogs</a>
+        <a>Skills</a>
         <a>Contact Me</a>
     </nav>
   )

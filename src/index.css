@@ -173,6 +173,18 @@ body, html {
   background: #52616b;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills-container img {
+  height: 100px;
+
+
+}
+
 #group6 {
   z-index: 2; /* slide under group 5 and 7 */
   background-image: url(./assets/whitelightbulb.png);

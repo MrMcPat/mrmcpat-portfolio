@@ -131,19 +131,21 @@ body, html {
 }
 
 .profile {
-  background: red;
-  /* height: 50vh; */
   width: 70vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 150px auto;
-  /* padding: 100px; */
+  justify-content: center;
+  margin: 10% auto;
 }
 
 .profile img {
   border-radius: 50%;
   height: 300px;
+}
+
+.profile-description {
+  padding-top: 5%;
+  width: 90%;
 }
 
 #group3 {

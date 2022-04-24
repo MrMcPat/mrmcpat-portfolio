@@ -7,7 +7,7 @@ function Six() {
       <div className="title" style={{color: 'white'}}>Background Layer</div>
     </div>
     <div className="parallax-layer parallax-layer-base">
-      {/* <div className="title">Base Layer</div> */}
+
     </div>
   </div>
   )

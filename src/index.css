@@ -86,17 +86,13 @@ body, html {
   overflow: hidden;
 }
 
-body {
+/* body {
   font: 100% / 1.5 Arial;
-}
+} */
 
 * {
   margin:0;
   padding:0;
-}
-
-.parallax {
-  font-size: 200%;
 }
 
  /* centre the content in the parallax layers */
@@ -109,7 +105,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
+.navbar {
+  background: transparent;
+}
 
 /* style the groups
 --------------------------------------------- */
@@ -130,7 +128,22 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+.profile {
+  background: red;
+  /* height: 50vh; */
+  width: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 150px auto;
+  /* padding: 100px; */
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 300px;
 }
 
 #group3 {
@@ -169,6 +182,7 @@ body {
 
 #group7 {
   z-index: 3; /* slide over group 7 */
+  height: 50vh;
 }
 #group7 .parallax-layer-base {
   background: #99a8b2;

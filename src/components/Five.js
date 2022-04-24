@@ -14,16 +14,19 @@ function Five() {
   return (
     <div id="group5" className="parallax-group">
     <div className="parallax-layer parallax-layer-base">
+      <div className="title">
+      <h1 style={{marginBottom: "30px"}}>Skills</h1>
       <div className=" skills-container">
-        <img src={reactLogo} />
-        <img src={javascriptLogo} />
-        <img src={html5Logo} />
-        <img src={css3Logo} />
-        <img src={rubyLogo} />
-        <img src={railsLogo} />
-        <img src={postgresqlLogo} />
-        <img src={nodejsLogo} />
-        <img src={gitLogo} />
+        <div><img src={reactLogo} /><p>React</p></div>
+        <div><img src={javascriptLogo} /><p>Javascript</p></div>
+        <div><img src={html5Logo} /><p>HTML5</p></div>
+        <div><img src={css3Logo} /><p>CSS3</p></div>
+        <div><img src={rubyLogo} /><p>Ruby</p></div>
+        <div><img src={railsLogo} /><p>Ruby on Rails</p></div>
+        <div><img src={postgresqlLogo} /><p>PostgreSQL</p></div>
+        <div><img src={nodejsLogo} /><p>Node.js</p></div>
+        <div><img src={gitLogo} /><p>Git</p></div>
+      </div>
       </div>
     </div>
   </div>

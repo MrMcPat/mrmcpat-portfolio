@@ -141,7 +141,6 @@ body, html {
 
 #group2 {
   z-index: 3; /* slide under groups 1 and 3 */
-  width: 200vw;
 }
 #group2 .parallax-layer-back {
   background-image: url(./assets/starry.gif);
@@ -262,7 +261,6 @@ body, html {
 
 #group4 {
   z-index: 2; /* slide under group 3 and 5 */
-  width: 200vw;
 }
 #group4 .parallax-layer-back {
   background-image: url(./assets/curiosity.png);

@@ -10,7 +10,7 @@ function Two() {
       <div className="profile-description">
       <span>Fullstack Software Engineer who specializes in React, Ruby, Ruby on Rails, PostgreSQL, Javascript, HTML, CSS. 
         Coming from an Electrical Engineering background, I am always avid in being hands on and learning new technologies. 
-        I chose to abandon the path of tinkering about with hardware to transition to software to fully expand on my creativity that 
+        I chose to abandon the path of tinkering with hardware to transition to software to fully expand on my creativity that 
         I couldn't with hardware. Bringing my problem solving background with me, I have shifted my career path to not just be a software 
         developer/engineer but to be an effective critical thinker simultaneously. Outside of all this, I like to crack lame jokes, make memes, 
         and having a good time with people :)

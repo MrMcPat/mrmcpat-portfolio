@@ -48,7 +48,7 @@ function Three() {
         {project === 0 ? 
         <>
         <h2 style={{textAlign: "center"}}>Adagio</h2>
-        <p style={{textAlign: "center"}}>Full stack application that acts as a platform where people can express themselves emotionally through music, colors, and journaling.<br />Technologies used: React, Ruby on Rails</p>
+        <p style={{textAlign: "center"}}>Full stack application that acts as a platform where people can express themselves emotionally through music, colors, and journaling.<br />Technologies used: React, Ruby on Rails, PostgreSQL</p>
         <div className="project-body">
           <div className="project-element">
           <img src={adagio1GIF} alt="adagio"/>
@@ -74,7 +74,7 @@ function Three() {
         {project === 1 ? 
         <>
           <h2 style={{textAlign: "center"}}>SCHEMΔ</h2>
-          <p style={{textAlign: "center"}}>Video and streaming platform for software and game development related topics. Users can also stream their own content as well.<br />Technologies used: React, Ruby on Rails, RTMP(Real-Time Messaging Protocol)</p>
+          <p style={{textAlign: "center"}}>Video and streaming platform for software and game development related topics. Users can also stream their own content as well.<br />Technologies used: React, Ruby on Rails, PostgreSQL, RTMP(Real-Time Messaging Protocol)</p>
           <div className="project-body">
           <div className="project-element">
           <img src={schema1GIF} className="double-gif" alt="schema"/>
@@ -92,7 +92,7 @@ function Three() {
         {project === 2 ? 
         <>
         <h2 style={{textAlign: "center"}}>Brain Fumble</h2>
-        <p style={{textAlign: "center"}}>A series of memory and visual minigames that the user can play. Users can save their scores in leaderboards.<br />Technologies used: React, Ruby/Sinatra </p>
+        <p style={{textAlign: "center"}}>A series of memory and visual minigames that the user can play. Users can save their scores in leaderboards.<br />Technologies used: React, Ruby/Sinatra, PostgreSQL </p>
         <div className="project-body">
           <div className="project-element">
           <img src={brainfumble1GIF} alt="brain fumble"/>

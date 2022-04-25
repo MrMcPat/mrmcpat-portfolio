@@ -34,7 +34,7 @@ function Three() {
   return (
     <div id="group3" className="parallax-group">
       <div className="parallax-layer parallax-layer-base">
-        <h1 style={{textAlign: "center"}}>Projects</h1>
+        <h1 style={{textAlign: "center", margin: "10px"}}>Projects</h1>
         <div className="project-menu">
           <button onClick={handleProject0}><img className={project === 0 ? "adagio" : ""} src={adagiologo} style={{width: "50px"}} alt=""/></button>
           <button className="schema" style={{color: project === 1 ? "rgb(144, 223, 223)" : "white"}}onClick={handleProject1}><span>sCheMA</span></button>

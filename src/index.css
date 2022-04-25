@@ -1,12 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background:black;
-  color: white;
+  color: white !important;
 }
 
 code {
@@ -123,11 +121,9 @@ body, html {
   z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax-layer-back {
-  background-image: url(./assets/smallspaceship.png);
+  background-image: url(./assets/starry.gif);
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .profile {
@@ -159,6 +155,7 @@ body, html {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  margin: 20px;
 }
 
 .project-menu button{
@@ -261,4 +258,14 @@ body, html {
 }
 #group7 .parallax-layer-base {
   background: #99a8b2;
+}
+
+.contact {
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.email {
+  color: grey;
 }

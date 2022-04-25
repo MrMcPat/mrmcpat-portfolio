@@ -10,7 +10,7 @@ import Seven from "./Seven"
 
 function App() {
   return (
-    <div classNameName="App">
+    <div className="App">
       {/* <Navbar /> */}
       <div className="parallax">
       <One />

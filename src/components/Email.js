@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import Modal from "react-bootstrap/Modal"
 import emailjs from '@emailjs/browser'
+import { ToastContainer, toast } from 'react-toastify'
 
 function Email({show, handleClose}) {
     const form = useRef()
@@ -10,14 +11,31 @@ function Email({show, handleClose}) {
     
         emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE_ID, process.env.REACT_APP_EMAIL_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAIL_PUBLIC_KEY)
           .then((result) => {
-              console.log(result.text)
+            toast.success('Email sent successfully!', {
+              position: "top-center",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              })
           }, (error) => {
-              console.log(error.text)
+            toast.error('Email was not sent successfully.', {
+              position: "top-center",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              })
           })
           e.target.reset()
       }
 
   return (
+    <>
     <Modal className="email" show={show} onHide={handleClose}>
     <Modal.Header closeButton>
       <Modal.Title>Email me!</Modal.Title>
@@ -39,6 +57,20 @@ function Email({show, handleClose}) {
     </Modal.Footer>
     </form>
   </Modal>
+    <ToastContainer
+      theme="dark"
+      position="top-center"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+    />
+    </>
+
   )
 }
 

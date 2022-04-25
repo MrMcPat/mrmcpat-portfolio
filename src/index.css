@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Share Tech Mono', monospace !important;
@@ -12,12 +16,25 @@ code {
     monospace;
 }
 
+.header {
+  background: rgb(197, 192, 192);
+  height: 50px;
+  width: 750px;
+  border: 7px black solid;
+  border-radius: 25px;
+  color: black !important;
+}
+
+.title-container {
+  display: flex;
+}
+
 .line-1{
   position: relative;
   top: 50%;  
   width: 24em;
   margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,.75);
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
   font-size: 180%;
   text-align: center;
   white-space: nowrap;
@@ -26,16 +43,78 @@ code {
 }
 
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 4s steps(40) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 22.5em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
   to{border-right-color: transparent;}
+}
+
+.title-animate1 {
+  opacity: 0;
+  animation: fadeup 1s ease;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.title-animate2 {
+  opacity: 0;
+  animation: fadeup 1s ease;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+.title-animate3 {
+  opacity: 0;
+  animation: fadein 1s ease;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+  position: relative;
+  top: 150px;
+}
+
+@keyframes fadeup {
+  0% {
+    opacity: 0;
+    top: 80px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title-animate4 {
+  animation: updown 2s infinite;
+  position: relative;
+}
+
+@keyframes updown {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0;
+  }
 }
 
 .parallax {

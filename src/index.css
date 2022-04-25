@@ -146,6 +146,7 @@ body, html {
   background-image: url(./assets/starry.gif);
   background-attachment: fixed;
   background-position: center;
+  width: 102vw;
 }
 
 .profile {
@@ -268,6 +269,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 102vw;
 }
 
 #group5 {
@@ -372,4 +374,15 @@ a:hover {
   perspective: 0;
   background: black;
 }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(61, 60, 60);
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;  
+  border-radius: 20px;
 }

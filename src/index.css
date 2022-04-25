@@ -157,6 +157,62 @@ body, html {
 
 .project-menu {
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-menu button{
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.adagio {
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1)
+  }
+  50% {
+    transform: scale(1.2)
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+.schema {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 30px;
+  color: white;
+}
+
+.brainfumble {
+  animation: sway 1s infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.project-body img {
+  width: 30vw;
 }
 
 #group4 {

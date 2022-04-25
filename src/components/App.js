@@ -9,8 +9,12 @@ import Seven from "./Seven"
 
 function App() {
 
+  function handleScroll() {
+    window.scrollTo(0, 0)
+  }
+
   return (
-    <div className="App" >
+    <div className="App">
       <div className="parallax">
       <One />
       <Two />

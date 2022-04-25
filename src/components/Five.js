@@ -17,15 +17,15 @@ function Five() {
       <div className="title">
       <h1 style={{marginBottom: "30px"}}>Skills</h1>
       <div className=" skills-container">
-        <div><img src={reactLogo} /><p>React</p></div>
-        <div><img src={javascriptLogo} /><p>Javascript</p></div>
-        <div><img src={html5Logo} /><p>HTML5</p></div>
-        <div><img src={css3Logo} /><p>CSS3</p></div>
-        <div><img src={rubyLogo} /><p>Ruby</p></div>
-        <div><img src={railsLogo} /><p>Ruby on Rails</p></div>
-        <div><img src={postgresqlLogo} /><p>PostgreSQL</p></div>
-        <div><img src={nodejsLogo} /><p>Node.js</p></div>
-        <div><img src={gitLogo} /><p>Git</p></div>
+        <div><img src={reactLogo} alt=""/><p>React</p></div>
+        <div><img src={javascriptLogo} alt=""/><p>Javascript</p></div>
+        <div><img src={html5Logo} alt=""/><p>HTML5</p></div>
+        <div><img src={css3Logo} alt=""/><p>CSS3</p></div>
+        <div><img src={rubyLogo} alt=""/><p>Ruby</p></div>
+        <div><img src={railsLogo} alt=""/><p>Ruby on Rails</p></div>
+        <div><img src={postgresqlLogo} alt=""/><p>PostgreSQL</p></div>
+        <div><img src={nodejsLogo} alt=""/><p>Node.js</p></div>
+        <div><img src={gitLogo} alt=""/><p>Git</p></div>
       </div>
       </div>
     </div>

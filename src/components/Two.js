@@ -6,7 +6,7 @@ function Two() {
     <div id="group2" className="parallax-group">
     <div className="parallax-layer parallax-layer-base">
       <div className="profile">
-      <img src={profilepic} alt="profile picture"/>
+      <img src={profilepic} alt=""/>
       <div className="profile-description">
       <span>Fullstack Software Engineer who specializes in React, Ruby, Ruby on Rails, PostgreSQL, Javascript, HTML, CSS. 
         Coming from an Electrical Engineering background, I am always avid in being hands on and learning new technologies. 

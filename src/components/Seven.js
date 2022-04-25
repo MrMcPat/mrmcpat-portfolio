@@ -16,9 +16,9 @@ function Seven() {
     <div className="parallax-layer parallax-layer-base">
       <div className="title">
         <h1>Contact Me</h1>
-        <a target="_blank" href="https://www.linkedin.com/in/patrick-liang-42525b14b"><FontAwesomeIcon className="contact" icon={faLinkedin} /></a>
-        <a target="_blank" href="https://github.com/MrMcPat"><FontAwesomeIcon className="contact" icon={faGithub} /></a>
-        <FontAwesomeIcon className="contact" onClick={handleShow} icon={faEnvelope} />
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-liang-42525b14b"><FontAwesomeIcon className="contact" icon={faLinkedin} /></a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/MrMcPat"><FontAwesomeIcon className="contact" icon={faGithub} /></a>
+        <button style={{background: "transparent", border: "none", color: "white"}}><FontAwesomeIcon className="contact" onClick={handleShow} icon={faEnvelope} /></button>
       </div>
     </div>
     <Email show={show} handleClose={handleClose}/>

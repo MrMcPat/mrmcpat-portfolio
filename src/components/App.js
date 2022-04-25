@@ -1,5 +1,4 @@
 import React from "react"
-import Navbar from "./Navbar"
 import One from "./One"
 import Two from "./Two"
 import Three from "./Three"
@@ -9,9 +8,9 @@ import Six from "./Six"
 import Seven from "./Seven"
 
 function App() {
+
   return (
-    <div className="App">
-      {/* <Navbar /> */}
+    <div className="App" >
       <div className="parallax">
       <One />
       <Two />

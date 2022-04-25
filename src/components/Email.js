@@ -20,15 +20,15 @@ function Email({show, handleClose}) {
   return (
     <Modal className="email" show={show} onHide={handleClose}>
     <Modal.Header closeButton>
-      <Modal.Title>Send an email to me!</Modal.Title>
+      <Modal.Title>Email me!</Modal.Title>
     </Modal.Header>
     <form ref={form} onSubmit={sendEmail}>
-    <Modal.Body>
-      <label>Name</label>
+    <Modal.Body style={{textAlign: "center"}}>
+      <label>Name</label><br />
       <input type="text" name="name" /><br />
-      <label>Email</label>
+      <label>Email</label><br />
       <input type="email" name="email" /><br />
-      <label>Message</label>
+      <label>Message</label><br />
       <textarea name="message" /><br />
     </Modal.Body>
     <Modal.Footer>

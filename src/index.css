@@ -329,7 +329,21 @@ a:hover {
   width: 350px !important;
 }
 
+#group4 {
+  height: 0;
+}
+
 #group5 {
   height: 65vh;
+}
+
+.parallax {
+  height: 500px; /* fallback for older browsers */
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 0;
+  perspective: 0;
+  background: black;
 }
 }

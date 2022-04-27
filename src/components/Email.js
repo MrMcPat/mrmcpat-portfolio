@@ -38,7 +38,7 @@ function Email({show, handleClose}) {
     <>
     <Modal className="email" show={show} onHide={handleClose}>
     <Modal.Header closeButton>
-      <Modal.Title>Email me!</Modal.Title>
+      <Modal.Title>Email me: patrick.liang45@gmail.com</Modal.Title>
     </Modal.Header>
     <form ref={form} onSubmit={sendEmail}>
     <Modal.Body style={{textAlign: "center"}}>

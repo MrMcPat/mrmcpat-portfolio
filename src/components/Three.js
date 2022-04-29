@@ -9,19 +9,20 @@ import overandunderlogo from "../assets/overandunderlogo.png"
 import underandoverlogo from "../assets/underandoverlogo.png"
 import brainfumblelogo from "../assets/brainfumblelogo.png"
 import adagiologo from "../assets/adagiologo.png"
-import adagio1GIF from "../assets/adagio1.gif"
-import adagio2GIF from "../assets/adagio2.gif"
-import adagio3GIF from "../assets/adagio3.gif"
-import adagio4GIF from "../assets/adagio4.gif"
-import schema1GIF from "../assets/schema1.gif"
-import schema2GIF from "../assets/schema2.gif"
-import brainfumble1GIF from "../assets/brainfumble1.gif"
-import brainfumble2GIF from "../assets/brainfumble2.gif"
-import brainfumble3GIF from "../assets/brainfumble3.gif"
-import brainfumble4GIF from "../assets/brainfumble4.gif"
-import overandunderGIF from "../assets/overandunder.gif"
-import weatherornotGIF from "../assets/weatherornot.gif"
-import flipadamncoinGIF from "../assets/flipadamncoin.gif"
+
+import adagio1Vid from "../assets/adagio1.mp4"
+import adagio2Vid from "../assets/adagio2.mp4"
+import adagio3Vid from "../assets/adagio3.mp4"
+import adagio4Vid from "../assets/adagio4.mp4"
+import schema1Vid from "../assets/schema1.mp4"
+import schema2Vid from "../assets/schema2.mp4"
+import brainfumble1Vid from "../assets/brainfumble1.mp4"
+import brainfumble2Vid from "../assets/brainfumble2.mp4"
+import brainfumble3Vid from "../assets/brainfumble3.mp4"
+import brainfumble4Vid from "../assets/brainfumble4.mp4"
+import overandunderVid from "../assets/overandunder.mp4"
+import weatherornotVid from "../assets/weatherornot.mp4"
+import flipadamncoinVid from "../assets/flipadamncoin.mp4"
 
 function Three() {
   const [project, setProject] = useState(0)
@@ -51,19 +52,31 @@ function Three() {
         <p style={{textAlign: "center"}}>Full stack application that acts as a platform where people can express themselves emotionally through music, colors, and journaling.<br />Technologies used: React, Ruby on Rails, PostgreSQL</p>
         <div className="project-body">
           <div className="project-element">
-          <img src={adagio1GIF} alt="adagio"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={adagio1Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Login page and inspirational lyric of the day.</p>
           </div>
           <div className="project-element">
-          <img src={adagio2GIF} alt="adagio"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={adagio2Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Music recommendations based on how you feel<br /> during the day.</p>
           </div>
           <div className="project-element">
-          <img src={adagio3GIF} alt="adagio"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={adagio3Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Journal Entry features, and user profiles.</p>
           </div>
           <div className="project-element">
-          <img src={adagio4GIF} alt="adagio"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={adagio4Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Forum post features.</p>
           </div>
         </div>
@@ -77,11 +90,17 @@ function Three() {
           <p style={{textAlign: "center"}}>Video and streaming platform for software and game development related topics. Users can also stream their own content as well.<br />Technologies used: React, Ruby on Rails, PostgreSQL, RTMP(Real-Time Messaging Protocol)</p>
           <div className="project-body">
           <div className="project-element">
-          <img src={schema1GIF} className="double-gif" alt="schema"/>
+          <video width="500" height="270" controls autoplay>
+            <source src={schema1Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Viewing other videos and streams.</p>
           </div>
           <div className="project-element">
-          <img src={schema2GIF} className="double-gif" alt="schema"/>
+          <video width="500" height="270" controls autoplay>
+            <source src={schema2Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>User streaming functionality.</p>
           </div>
         </div>
@@ -95,19 +114,31 @@ function Three() {
         <p style={{textAlign: "center"}}>A series of memory and visual minigames that the user can play. Users can save their scores in leaderboards.<br />Technologies used: React, Ruby/Sinatra, PostgreSQL </p>
         <div className="project-body">
           <div className="project-element">
-          <img src={brainfumble1GIF} alt="brain fumble"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={brainfumble1Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Sequence Memory.</p>
           </div>
           <div className="project-element">
-          <img src={brainfumble2GIF} alt="brain fumble"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={brainfumble2Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Number Memory.</p>
           </div>
           <div className="project-element">
-          <img src={brainfumble3GIF} alt="brain fumble"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={brainfumble3Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Color Match.</p>
           </div>
           <div className="project-element">
-          <img src={brainfumble4GIF} alt="brain fumble"/>
+          <video width="420" height="200" controls autoplay>
+            <source src={brainfumble4Vid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           <p>Leaderboards.</p>
           </div>
         </div>
@@ -122,7 +153,10 @@ function Three() {
         <p style={{textAlign: "center"}}>Front-end application that allows users to search recipes based on their fitness diet regimens.<br />Technologies used: React</p>
         <div className="project-body">
           <div>
-          <img src={overandunderGIF} className="single-gif" alt="over and under"/>
+          <video width="600" height="320" controls autoplay>
+            <source src={overandunderVid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           </div>
         </div>
         <div className="project-footer" style={{marginTop: "40px"}}>
@@ -135,7 +169,10 @@ function Three() {
         <p style={{textAlign: "center"}}>Minimalistic weather application that advises the user if they need an umbrella for the day based on weather conditions.<br />Technologies used: JavaScript/HTML5/CSS3</p>
         <div className="project-body">
           <div>
-          <img src={weatherornotGIF} className="single-gif" alt="weather or not"/>
+          <video width="600" height="320" controls autoplay>
+            <source src={weatherornotVid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           </div>
         </div>
         <div className="project-footer" style={{marginTop: "40px"}}>
@@ -148,7 +185,10 @@ function Three() {
         <p style={{textAlign: "center"}}>Coin flip decision making application, can choose between one flip, 2-3 flips, or 3-5 flips.<br />Technologies used: jQuery/Express.js/MongoDB</p>
         <div className="project-body">
           <div>
-          <img src={flipadamncoinGIF} className="single-gif" alt="flip a damn coin"/>
+          <video width="600" height="320" controls autoplay>
+            <source src={flipadamncoinVid} type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
           </div>
         </div> 
         <div className="project-footer" style={{marginTop: "40px"}}>

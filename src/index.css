@@ -262,7 +262,7 @@ body, html {
 
 #group3 {
   z-index: 4; /* slide over group 2 and 4 */
-  height: 115vh;
+  height: 120vh;
 }
 #group3 .parallax-layer-base {
   background: #374045;

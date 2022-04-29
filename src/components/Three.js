@@ -52,28 +52,28 @@ function Three() {
         <p style={{textAlign: "center"}}>Full stack application that acts as a platform where people can express themselves emotionally through music, colors, and journaling.<br />Technologies used: React, Ruby on Rails, PostgreSQL</p>
         <div className="project-body">
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={adagio1Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
           <p>Login page and inspirational lyric of the day.</p>
           </div>
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={adagio2Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
           <p>Music recommendations based on how you feel<br /> during the day.</p>
           </div>
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={adagio3Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
           <p>Journal Entry features, and user profiles.</p>
           </div>
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={adagio4Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
@@ -90,14 +90,14 @@ function Three() {
           <p style={{textAlign: "center"}}>Video and streaming platform for software and game development related topics. Users can also stream their own content as well.<br />Technologies used: React, Ruby on Rails, PostgreSQL, RTMP(Real-Time Messaging Protocol)</p>
           <div className="project-body">
           <div className="project-element">
-          <video width="500" height="270" controls autoplay>
+          <video width="500" height="270" autoPlay muted>
             <source src={schema1Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
           <p>Viewing other videos and streams.</p>
           </div>
           <div className="project-element">
-          <video width="500" height="270" controls autoplay>
+          <video width="500" height="270" autoPlay muted>
             <source src={schema2Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
@@ -114,28 +114,28 @@ function Three() {
         <p style={{textAlign: "center"}}>A series of memory and visual minigames that the user can play. Users can save their scores in leaderboards.<br />Technologies used: React, Ruby/Sinatra, PostgreSQL </p>
         <div className="project-body">
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={brainfumble1Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
           <p>Sequence Memory.</p>
           </div>
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={brainfumble2Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
           <p>Number Memory.</p>
           </div>
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={brainfumble3Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
           <p>Color Match.</p>
           </div>
           <div className="project-element">
-          <video width="420" height="200" controls autoplay>
+          <video width="420" height="200" autoPlay muted>
             <source src={brainfumble4Vid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
@@ -153,7 +153,7 @@ function Three() {
         <p style={{textAlign: "center"}}>Front-end application that allows users to search recipes based on their fitness diet regimens.<br />Technologies used: React</p>
         <div className="project-body">
           <div>
-          <video width="600" height="320" controls autoplay>
+          <video width="600" height="320" autoPlay muted>
             <source src={overandunderVid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
@@ -169,7 +169,7 @@ function Three() {
         <p style={{textAlign: "center"}}>Minimalistic weather application that advises the user if they need an umbrella for the day based on weather conditions.<br />Technologies used: JavaScript/HTML5/CSS3</p>
         <div className="project-body">
           <div>
-          <video width="600" height="320" controls autoplay>
+          <video width="600" height="320" autoPlay muted>
             <source src={weatherornotVid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
@@ -185,7 +185,7 @@ function Three() {
         <p style={{textAlign: "center"}}>Coin flip decision making application, can choose between one flip, 2-3 flips, or 3-5 flips.<br />Technologies used: jQuery/Express.js/MongoDB</p>
         <div className="project-body">
           <div>
-          <video width="600" height="320" controls autoplay>
+          <video width="600" height="320" autoPlay muted>
             <source src={flipadamncoinVid} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>

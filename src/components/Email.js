@@ -50,10 +50,7 @@ function Email({show, handleClose}) {
       <textarea name="message" /><br />
     </Modal.Body>
     <Modal.Footer>
-      <button variant="secondary" onClick={handleClose}>
-        Close
-      </button>
-      <button type="submit">Send</button>
+      <button type="submit" onClick={handleClose}>Send</button>
     </Modal.Footer>
     </form>
   </Modal>

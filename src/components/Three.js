@@ -101,6 +101,8 @@ function Three() {
             <p style={{ textAlign: "center" }}>
               A React Native mobile app for adjusting the user's sleep pattern
               by increments of minutes.
+              <br />
+              Technologies used: React Native, Ruby on Rails, PostgreSQL
             </p>
             <div className="project-body">
               <div className="project-element">

@@ -15,8 +15,9 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2500);
+    }, 2000);
   }, []);
+
   return (
     <div>
       {isLoading ? (

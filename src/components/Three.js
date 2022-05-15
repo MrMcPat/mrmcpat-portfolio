@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoins } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -129,13 +131,26 @@ function Three() {
               </div>
             </div>
             <div className="project-footer">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/MrMcPat/allegro"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Github Repo</Tooltip>}
               >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/MrMcPat/allegro"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </button>
+              </OverlayTrigger>
             </div>
           </>
         ) : null}
@@ -183,21 +198,47 @@ function Three() {
               </div>
             </div>
             <div className="project-footer">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/MrMcPat/adagio"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Github Repo</Tooltip>}
               >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/MrMcPat/adagio"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </button>
+              </OverlayTrigger>
               &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://adagio-app.herokuapp.com/"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Live Website</Tooltip>}
               >
-                <FontAwesomeIcon icon={faEye} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://adagio-app.herokuapp.com/"
+                  >
+                    <FontAwesomeIcon icon={faEye} />
+                  </a>
+                </button>
+              </OverlayTrigger>
             </div>
           </>
         ) : null}
@@ -228,21 +269,47 @@ function Three() {
               </div>
             </div>
             <div className="project-footer">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/MrMcPat/schema"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Github Repo</Tooltip>}
               >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/MrMcPat/schema"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </button>
+              </OverlayTrigger>
               &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://schema-project.herokuapp.com/"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Live Website</Tooltip>}
               >
-                <FontAwesomeIcon icon={faEye} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://schema-project.herokuapp.com/"
+                  >
+                    <FontAwesomeIcon icon={faEye} />
+                  </a>
+                </button>
+              </OverlayTrigger>
             </div>
           </>
         ) : null}
@@ -286,21 +353,47 @@ function Three() {
               </div>
             </div>
             <div className="project-footer">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/MrMcPat/fumble-game"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Github Repo</Tooltip>}
               >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/MrMcPat/fumble-game"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </button>
+              </OverlayTrigger>
               &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://mrmcpat.github.io/fumble-game/"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Live Website</Tooltip>}
               >
-                <FontAwesomeIcon icon={faEye} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://mrmcpat.github.io/fumble-game/"
+                  >
+                    <FontAwesomeIcon icon={faEye} />
+                  </a>
+                </button>
+              </OverlayTrigger>
             </div>
           </>
         ) : null}
@@ -322,21 +415,47 @@ function Three() {
               </div>
             </div>
             <div className="project-footer" style={{ marginTop: "40px" }}>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/MrMcPat/over-and-under"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Github Repo</Tooltip>}
               >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/MrMcPat/over-and-under"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </button>
+              </OverlayTrigger>
               &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://mrmcpat.github.io/over-and-under"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Live Website</Tooltip>}
               >
-                <FontAwesomeIcon icon={faEye} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://mrmcpat.github.io/over-and-under"
+                  >
+                    <FontAwesomeIcon icon={faEye} />
+                  </a>
+                </button>
+              </OverlayTrigger>
             </div>
           </>
         ) : null}
@@ -358,21 +477,47 @@ function Three() {
               </div>
             </div>
             <div className="project-footer" style={{ marginTop: "40px" }}>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/MrMcPat/Weather-Or-Not"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Github Repo</Tooltip>}
               >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/MrMcPat/Weather-Or-Not"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </button>
+              </OverlayTrigger>
               &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://mrmcpat.github.io/Weather-Or-Not/"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Live Website</Tooltip>}
               >
-                <FontAwesomeIcon icon={faEye} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://mrmcpat.github.io/Weather-Or-Not/"
+                  >
+                    <FontAwesomeIcon icon={faEye} />
+                  </a>
+                </button>
+              </OverlayTrigger>
             </div>
           </>
         ) : null}
@@ -394,21 +539,47 @@ function Three() {
               </div>
             </div>
             <div className="project-footer" style={{ marginTop: "40px" }}>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/MrMcPat/FlipADamnCoin"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Github Repo</Tooltip>}
               >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/MrMcPat/FlipADamnCoin"
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </button>
+              </OverlayTrigger>
               &nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://powerful-peak-24690.herokuapp.com/"
+              <OverlayTrigger
+                placement="top"
+                overlay={<Tooltip>Live Website</Tooltip>}
               >
-                <FontAwesomeIcon icon={faEye} />
-              </a>
+                <button
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://powerful-peak-24690.herokuapp.com/"
+                  >
+                    <FontAwesomeIcon icon={faEye} />
+                  </a>
+                </button>
+              </OverlayTrigger>
             </div>
           </>
         ) : null}

@@ -157,7 +157,7 @@ code {
 .title-animate2 {
   opacity: 0;
   animation: fadeup 1s ease;
-  animation-delay: 6s;
+  animation-delay: 5.2s;
   animation-fill-mode: forwards;
   position: relative;
 }
@@ -165,7 +165,7 @@ code {
 .title-animate3 {
   opacity: 0;
   animation: fadein 1s ease;
-  animation-delay: 7s;
+  animation-delay: 5.4s;
   animation-fill-mode: forwards;
   position: relative;
   top: 150px;

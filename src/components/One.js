@@ -18,7 +18,8 @@ function One() {
             &nbsp;
             <FontAwesomeIcon
               icon={faSearch}
-              style={{ fontSize: "45px", color: "white" }}
+              style={{ color: "white" }}
+              className="header-search"
             />
           </div>
           <br />

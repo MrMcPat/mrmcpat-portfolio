@@ -32,6 +32,10 @@ code {
   color: black !important;
 }
 
+.header-search {
+  font-size: 40px;
+}
+
 .loading-screen {
   animation: fadeout 0.5s ease;
   animation-delay: 2s;
@@ -538,8 +542,17 @@ a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
-  html {
-    scroll-behavior: smooth;
+  .header {
+    height: 40px;
+    width: 300px;
+  }
+
+  .header-search {
+    font-size: 30px;
+  }
+
+  .line-1 {
+    font-size: 75%;
   }
 
   .profile-description span {

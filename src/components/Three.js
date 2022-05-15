@@ -40,7 +40,7 @@ function Three() {
   const handleProject5 = () => setProject(5);
 
   return (
-    <div id="group3" className="parallax-group">
+    <div id="projects" className="parallax-group">
       <div className="parallax-layer parallax-layer-base">
         <h1 style={{ textAlign: "center", margin: "20px" }}>Projects</h1>
         <div className="project-menu">
@@ -135,10 +135,6 @@ function Three() {
                 href="https://github.com/MrMcPat/allegro"
               >
                 <FontAwesomeIcon icon={faGithub} />
-              </a>
-              &nbsp;
-              <a href="">
-                <FontAwesomeIcon icon={faEye} />
               </a>
             </div>
           </>

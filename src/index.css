@@ -7,8 +7,19 @@ body {
   font-family: "Share Tech Mono", monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
+  background: black !important;
   color: white !important;
+  animation: fadein 0.5s ease;
+  animation-delay: 2.5s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 code {
@@ -25,8 +36,80 @@ code {
   color: black !important;
 }
 
+.loading-screen {
+  animation: fadeout 0.5s ease;
+  animation-delay: 2s;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loading-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  color: white;
+}
+.loading-text span {
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: 5px;
+  mix-blend-mode: difference;
+  color: rgb(75, 156, 219);
+  color: white;
+}
+
+.loading-text::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 65px;
+  background-color: white;
+  top: 3px;
+  animation: move 4s linear infinite;
+  -webkit-animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  0%,
+  100% {
+    left: 0;
+  }
+  50% {
+    left: calc(100% - 80px);
+  }
+}
+
 .title-container {
   display: flex;
+}
+
+.sample {
+  color: red !important;
+}
+
+.menu-bar {
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  top: 40%;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.menu-bar svg {
+  margin-bottom: 10px;
 }
 
 .line-1 {
@@ -232,17 +315,17 @@ html {
 /* style the groups
 --------------------------------------------- */
 
-#group1 {
+#home {
   z-index: 5; /* slide over group 2 */
 }
-#group1 .parallax-layer-base {
+#home .parallax-layer-base {
   background: #1e2022;
 }
 
-#group2 {
+#bio {
   z-index: 3; /* slide under groups 1 and 3 */
 }
-#group2 .parallax-layer-back {
+#bio .parallax-layer-back {
   background-image: url(./assets/starry.gif);
   background-attachment: fixed;
   background-position: center;
@@ -267,11 +350,11 @@ html {
   width: 90%;
 }
 
-#group3 {
+#projects {
   z-index: 4; /* slide over group 2 and 4 */
   height: 125vh;
 }
-#group3 .parallax-layer-base {
+#projects .parallax-layer-base {
   background: #374045;
 }
 
@@ -279,6 +362,7 @@ html {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 .project-menu button {
@@ -417,11 +501,11 @@ html {
   background-size: cover;
 }
 
-#group7 {
+#contactme {
   z-index: 3; /* slide over group 7 */
   height: 40vh;
 }
-#group7 .parallax-layer-base {
+#contactme .parallax-layer-base {
   background: #99a8b2;
 }
 
@@ -456,7 +540,7 @@ a:hover {
     font-size: 12px;
   }
 
-  #group3 {
+  #projects {
     height: 240vh;
   }
 

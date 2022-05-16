@@ -107,21 +107,30 @@ function Three() {
               Technologies used: React Native, Ruby on Rails, PostgreSQL
             </p>
             <div className="project-body">
-              <div className="project-element">
+              <div
+                className="project-element"
+                style={{ marginLeft: "70px", marginRight: "70px" }}
+              >
                 <video width="200" height="400" autoPlay muted>
                   <source src={allegro1Vid} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <p>Login and signup.</p>
               </div>
-              <div className="project-element">
+              <div
+                className="project-element"
+                style={{ marginLeft: "70px", marginRight: "70px" }}
+              >
                 <video width="200" height="400" autoPlay muted>
                   <source src={allegro2Vid} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 <p>Configuring the alarm and increments.</p>
               </div>
-              <div className="project-element">
+              <div
+                className="project-element"
+                style={{ marginLeft: "70px", marginRight: "70px" }}
+              >
                 <img
                   src={allegroNotif}
                   alt=""

@@ -258,9 +258,6 @@ code {
   z-index: 3;
 }
 
-/* Debugger styles - used to show the effect
---------------------------------------------- */
-
 .debug {
   position: fixed;
   top: 0;
@@ -288,8 +285,7 @@ code {
   transition: transform 0.5s;
 }
 
-/* demo styles
---------------------------------------------- */
+/* demo styles */
 
 body,
 html {
@@ -317,8 +313,7 @@ html {
   transform: translate(-50%, -50%);
 }
 
-/* style the groups
---------------------------------------------- */
+/* style the groups */
 
 #home {
   z-index: 5; /* slide over group 2 */
@@ -610,4 +605,14 @@ a:hover {
 ::-webkit-scrollbar-thumb {
   background-color: white;
   border-radius: 20px;
+}
+
+@media only screen and (min-width: 1600px) {
+  #projects {
+    height: 110vh;
+  }
+
+  .project-element {
+    margin: 5px 200px 5px 200px;
+  }
 }

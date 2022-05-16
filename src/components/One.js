@@ -12,7 +12,7 @@ function One() {
           <div className="title-container">
             <div className="header">
               <p className="line-1 anim-typewriter">
-                Patrick Liang Fullstack Software Engineer
+                Patrick Liang Software Engineer
               </p>
             </div>
             &nbsp;

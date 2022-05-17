@@ -138,7 +138,7 @@ code {
     width: 0;
   }
   to {
-    width: 17em;
+    width: 17.5em;
   }
 }
 @keyframes blinkTextCursor {

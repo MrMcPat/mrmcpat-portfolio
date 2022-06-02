@@ -46,7 +46,7 @@ function Three() {
       <div className="parallax-layer parallax-layer-base">
         <h1 style={{ textAlign: "center", margin: "20px" }}>Projects</h1>
         <div className="project-menu">
-          <button onClick={handleProject6}>
+          <button className="project-icon" onClick={handleProject6}>
             <img
               className={project === 6 ? "allegro" : ""}
               src={allegrologo}
@@ -54,7 +54,7 @@ function Three() {
               alt=""
             />
           </button>
-          <button onClick={handleProject0}>
+          <button className="project-icon" onClick={handleProject0}>
             <img
               className={project === 0 ? "adagio" : ""}
               src={adagiologo}
@@ -63,33 +63,35 @@ function Three() {
             />
           </button>
           <button
-            className="schema"
+            className="project-icon schema"
             style={{ color: project === 1 ? "rgb(144, 223, 223)" : "white" }}
             onClick={handleProject1}
           >
             <span>sCheMA</span>
           </button>
           <button
-            className={`${project === 2 ? "brainfumble" : ""}`}
+            className={`${
+              project === 2 ? "brainfumble project-icon" : "project-icon"
+            }`}
             onClick={handleProject2}
           >
             <img src={brainfumblelogo} style={{ width: "60px" }} alt="" />
           </button>
-          <button onClick={handleProject3}>
+          <button className="project-icon" onClick={handleProject3}>
             <img
               src={project === 3 ? underandoverlogo : overandunderlogo}
               style={{ width: "100px", height: "40px" }}
               alt=""
             />
           </button>
-          <button onClick={handleProject4}>
+          <button className="project-icon" onClick={handleProject4}>
             <img
               src={project === 4 ? weatherornotclicked : weatherornotlogo}
               style={{ width: "50px" }}
               alt=""
             />
           </button>
-          <button onClick={handleProject5}>
+          <button className="project-icon" onClick={handleProject5}>
             <FontAwesomeIcon
               icon={faCoins}
               color={`${project === 5 ? "#F0A500" : "#ffc93c"}`}

@@ -371,6 +371,14 @@ html {
   border: none;
 }
 
+.project-icon {
+  transition: transform 0.2s;
+}
+
+.project-icon:hover {
+  transform: scale(1.1);
+}
+
 .allegro {
   animation-name: spin;
   animation-duration: 5000ms;

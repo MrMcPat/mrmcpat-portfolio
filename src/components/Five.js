@@ -1,5 +1,6 @@
 import React from "react";
 import reactLogo from "../assets/react.png";
+import reduxLogo from "../assets/redux.png";
 import javascriptLogo from "../assets/javascript.png";
 import html5Logo from "../assets/html5.png";
 import css3Logo from "../assets/css3.png";
@@ -19,6 +20,10 @@ function Five() {
             <div>
               <img src={reactLogo} alt="" />
               <p>React/React Native</p>
+            </div>
+            <div>
+              <img src={reduxLogo} alt="" />
+              <p>Redux</p>
             </div>
             <div>
               <img src={javascriptLogo} alt="" />
